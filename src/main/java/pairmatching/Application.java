@@ -1,9 +1,11 @@
 package pairmatching;
 
-public class Application {
-    public static void main(String[] args) {
-        // TODO 구현 진행
+import java.io.IOException;
 
-        System.out.println("zzz");
+public class Application {
+    public static void main(String[] args) throws IOException {
+
+        Main main = new Main();
+        main.showFunctionMsg();
     }
 }
